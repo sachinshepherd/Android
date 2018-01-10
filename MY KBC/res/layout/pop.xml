@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_light"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="228dp"
+        android:layout_height="88dp"
+        android:layout_margin="1dp"
+        android:background="@drawable/ni2222"
+        android:orientation="vertical" >
+
+     >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/doublearroww" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fiftyfifty" />
+
+            <Button
+                android:id="@+id/dismiss"
+                android:layout_width="62dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/phon" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

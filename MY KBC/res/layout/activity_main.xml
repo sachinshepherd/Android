@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_bg"
+    android:orientation="horizontal" 
+    android:keepScreenOn="true">
+
+    <Gallery
+        android:id="@+id/gallery1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_x="24dp"
+        android:layout_y="66dp" />
+
+    <Gallery
+        android:id="@+id/gallery2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="36dp"
+        android:layout_y="6dp"
+        android:background="@drawable/logo_big" />
+
+    <Button
+        android:id="@+id/button4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="460dp"
+        android:background="@drawable/playbutton"
+        android:text="EXIT"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="396dp"
+        android:background="@drawable/playbutton"
+        android:text="RULES"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="337dp"
+        android:background="@drawable/playbutton"
+        android:text="ABOUT"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="5dp"
+        android:layout_y="275dp"
+        android:background="@drawable/playbutton"
+        android:text="PLAY"
+        android:textColor="#ffffff" />
+
+</AbsoluteLayout>

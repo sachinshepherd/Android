@@ -1,0 +1,133 @@
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ni" >
+
+    <Gallery
+        android:id="@+id/gallery1"
+        android:layout_width="114dp"
+        android:layout_height="272dp"
+        android:layout_x="212dp"
+        android:layout_y="8dp"
+        android:background="@drawable/onedigit" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="6dp"
+        android:background="@drawable/fiftyfifty" />
+
+    <Button
+        android:id="@+id/button4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="46dp"
+        android:layout_height="60dp"
+        android:layout_x="102dp"
+        android:layout_y="4dp"
+        android:background="@drawable/phon" />
+
+    <Button
+        android:id="@+id/button3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="4dp"
+        android:background="@drawable/powerpaplu" />
+
+    <Button
+        android:id="@+id/button9"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_x="151dp"
+        android:layout_y="9dp"
+        android:background="@drawable/doublearroww" />
+
+    <Gallery
+        android:id="@+id/gallery2"
+        android:layout_width="202dp"
+        android:layout_height="198dp"
+        android:layout_x="8dp"
+        android:layout_y="66dp"
+        android:background="@drawable/playyoutubenew" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="288dp"
+        android:background="@drawable/com_facebook_loginbutton_blue_normal"
+        android:text="Q 1.  Lord Krishna earned which of the following names because he killed a particular demon ?"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:id="@+id/button5"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="154dp"
+        android:layout_height="52dp"
+        android:layout_x="5dp"
+        android:layout_y="344dp"
+        android:background="@drawable/playbutton"
+        android:text="Button"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:id="@+id/button6"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="145dp"
+        android:layout_height="52dp"
+        android:layout_x="161dp"
+        android:layout_y="347dp"
+        android:background="@drawable/playbutton"
+        android:text="Button"
+        android:textColor="#ffffffff" />
+
+    <Chronometer
+        android:id="@+id/chronometer1"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_x="117dp"
+        android:layout_y="398dp"
+        android:background="@drawable/countbutton"
+        android:gravity="center_vertical|center"
+        android:text="Chronometer" />
+
+    <Button
+        android:id="@+id/button8"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="151dp"
+        android:layout_height="53dp"
+        android:layout_x="5dp"
+        android:layout_y="429dp"
+        android:background="@drawable/playbutton"
+        android:text="Button"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:id="@+id/button7"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="144dp"
+        android:layout_height="56dp"
+        android:layout_x="164dp"
+        android:layout_y="428dp"
+        android:background="@drawable/playbutton"
+        android:text="Button"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="124dp"
+        android:layout_y="482dp"
+        android:background="@drawable/quit" />
+
+</AbsoluteLayout>

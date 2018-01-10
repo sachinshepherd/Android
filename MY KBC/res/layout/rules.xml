@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView1" android:background="@drawable/ni2222" android:keepScreenOn="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@+id/buttons" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center_horizontal" android:id="@+id/textView21" android:layout_width="74.0dip" android:layout_height="wrap_content" android:text="Rules" android:layout_weight="0.06" />
+        <TextView android:id="@+id/textView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="      The first eight questions need to be answered in restrictive time. First four questions have time limit of 40 seconds, while question 5 to 8 need to be answered in 60 minutes. From eights (9th) question onwards, there is no time restriction and you can take as much time as you want." />
+        <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="       The two levels are also Padao which was there in earlier seasons. If you reach first level i.e. Rs. 40, 000 and you answer any question wrong until level 2 (Rs. 6, 40, 000) then youâ€™ll take home at least Rs. 40, 000." />
+        <TextView android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="        The next milestone is Rs. 6, 40, 000 if you reach until eighth question then youâ€™ll take home at least this amount with you, irrespective of you answering the question wrong." />
+        <TextView android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="center" android:id="@+id/textView7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Life lines:" />
+        <TextView android:id="@+id/textView8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="       There are total 5 lifeline in the new avatar of Kaun Banega Crorepati." />
+        <TextView android:id="@+id/textView10" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="center" android:id="@+id/textView9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="50:50" />
+        <TextView android:id="@+id/textView11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="       If you donâ€™t know answer to the question and confusion about the answer, you can use this lifeline. The 2 wrong answer will be removed" />
+        <TextView android:id="@+id/textView12" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="center" android:id="@+id/textView13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Phone-a-friend" />
+        <TextView android:id="@+id/textView14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="      You can call any of your friends (generally, 3 names given) to get the answer of your question if you have doubt. The call will last only 30 seconds and after that you need to answer the questions" />
+        <TextView android:id="@+id/textView16" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="center" android:id="@+id/textView15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Power Paplu" />
+        <TextView android:id="@+id/textView17" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="       This fascinatingly named lifeline is the new addition in the seventh season of KBC. By using this lifeline, the contestant can revive any of  the used lifeline." />
+        <TextView android:id="@+id/textView18" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="center" android:id="@+id/textView19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Flip the questions" />
+        <TextView android:id="@+id/textView20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="      If you donâ€™t have a clue about any of the answer provided for the questions, you can flip the questions. A new question will be presented before the contestant. After opting for this lifeline, you cannot quit the game without answering the question" />
+
+        <Button
+            android:id="@+id/button1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/playbutton"
+            android:text="BACK TO HOME"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+</ScrollView>

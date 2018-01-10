@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ni"
+    android:keepScreenOn="true" >
+
+    <Gallery
+        android:id="@+id/gallery2"
+        android:layout_width="202dp"
+        android:layout_height="198dp"
+        android:layout_x="8dp"
+        android:layout_y="66dp"
+        android:background="@drawable/playyoutubenew" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="288dp"
+        android:background="@drawable/com_facebook_loginbutton_blue_normal"
+        android:text="Q 1.  Lord Krishna earned which of the following names because he killed a particular demon ?"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:id="@+id/button5"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="154dp"
+        android:layout_height="52dp"
+        android:layout_x="5dp"
+        android:layout_y="344dp"
+        android:background="@drawable/playbutton"
+        android:text="Button"
+        android:textColor="#ffffffff" />
+
+    <Chronometer
+        android:id="@+id/chronometer1"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_x="117dp"
+        android:layout_y="398dp"
+        android:background="@drawable/countbutton"
+        android:gravity="center_vertical|center"
+        android:text="Chronometer" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="124dp"
+        android:layout_y="482dp"
+        android:background="@drawable/quit" />
+
+    <Gallery
+        android:id="@+id/gallery1"
+        android:layout_width="114dp"
+        android:layout_height="272dp"
+        android:layout_x="215dp"
+        android:layout_y="5dp"
+        android:background="@drawable/onedigit" />
+
+        <Button
+            android:id="@+id/button9"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="54dp"
+            android:layout_height="wrap_content"
+            android:layout_x="161dp"
+            android:layout_y="4dp"
+            android:background="@drawable/doublearroww" />
+
+        <Button
+            android:id="@+id/button4"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="57dp"
+            android:layout_height="64dp"
+            android:layout_x="106dp"
+            android:layout_y="3dp"
+            android:background="@drawable/phon" />
+
+        <Button
+            android:id="@+id/button3"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="5dp"
+            android:background="@drawable/powerpaplu" />
+
+        <Button
+            android:id="@+id/button2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:layout_x="57dp"
+            android:layout_y="4dp"
+            android:background="@drawable/fiftyfifty" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:layout_x="30dp"
+            android:layout_y="326dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ff0000" />
+
+        <Button
+            android:id="@+id/button6"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="145dp"
+            android:layout_height="54dp"
+            android:layout_x="161dp"
+            android:layout_y="344dp"
+            android:background="@drawable/playbutton"
+            android:text="Button"
+            android:textColor="#ffffffff" />
+
+        <Button
+            android:id="@+id/button7"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="144dp"
+            android:layout_height="55dp"
+            android:layout_x="11dp"
+            android:layout_y="427dp"
+            android:background="@drawable/playbutton"
+            android:text="Button"
+            android:textColor="#ffffffff" />
+
+        <Button
+            android:id="@+id/button8"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="151dp"
+            android:layout_height="54dp"
+            android:layout_x="160dp"
+            android:layout_y="427dp"
+            android:background="@drawable/playbutton"
+            android:text="Button"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="287dp"
+            android:layout_height="145dp"
+            android:layout_x="16dp"
+            android:layout_y="336dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_x="75dp"
+            android:layout_y="400dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ff0000" />
+
+</AbsoluteLayout>
